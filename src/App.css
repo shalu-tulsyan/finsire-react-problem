@@ -13,9 +13,15 @@
 }
 
 .elementWrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 5px;
 }
 
 .elementWrapper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 5px;
 }

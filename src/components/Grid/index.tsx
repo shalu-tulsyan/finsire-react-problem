@@ -12,10 +12,22 @@ export default function Grid({meanValue,medianValue,modeValue,standardDeviationV
 {
     return (
         <div className="gridContainer">
-            <div>Mean { meanValue}</div>
-            <div>median { medianValue}</div>
-            <div>mode { modeValue}</div>
-            <div>Standard Deviation { standardDeviationValue}</div>
+            <div>
+                <h2> Mean </h2>
+                <p>{meanValue}</p>
+            </div>
+            <div>
+                <h2> median </h2>
+                <p>{medianValue}</p>
+            </div>
+            <div>
+                <h2> mode </h2>
+                <p>{modeValue}</p>
+            </div>
+            <div>
+                <h2> Standard Deviation </h2>
+                <p>{standardDeviationValue}</p>
+            </div>
         </div>
     );
 }
